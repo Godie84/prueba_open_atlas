@@ -1,4 +1,5 @@
 <?php
+//Endpoin users
 require_once __DIR__ . '/../controllers/UserController.php';
 
 $controller = new UserController();
