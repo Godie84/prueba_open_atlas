@@ -27,7 +27,7 @@ class Project
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
-    //Metodo para crear un proyecto a travez del endpoin
+    //Metodo para crear un proyecto atravez del endpoin
     public function create($data)
     {
         $stmt = $this->db->prepare("INSERT INTO projects (name, description) VALUES (?, ?)");
